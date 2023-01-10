@@ -26,7 +26,7 @@ class Form extends Component {
                     buttonStr: 'Отправить'
                 })
     
-            }, 2000);
+            }, 1500);
             
             return false;
         } else {
