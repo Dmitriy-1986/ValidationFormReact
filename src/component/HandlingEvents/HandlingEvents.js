@@ -45,7 +45,6 @@ class Form extends Component {
                 </form>
                 <p className="res"></p>
             </div>
-
         )
     }
 }
