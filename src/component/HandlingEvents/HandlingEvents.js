@@ -30,7 +30,7 @@ class Form extends Component {
         input.value = '';
         setTimeout(() => {
             this.setState({
-                defaultStr: 'Введите текст...',
+                defaultStr: 'Введите текст снова...',
                 buttonStr: 'Отправить'
             });
         }, 3000);
