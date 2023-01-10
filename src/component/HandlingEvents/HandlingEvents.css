@@ -1,0 +1,18 @@
+input, button {
+    padding: 10px;
+    font-size: 24px;
+    margin: 5px;
+}
+
+input {
+    display: block;
+    width: 300px;
+}
+
+button {
+    width: 325px;
+}
+
+.res {
+    height: 10px;
+}
