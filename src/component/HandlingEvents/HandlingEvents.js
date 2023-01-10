@@ -19,6 +19,15 @@ class Form extends Component {
                 defaultStr: 'Вы не ввели текст...',
                 buttonStr: 'Сообщение не отправлено'
             });
+            
+            setTimeout(() => {
+                this.setState({
+                    defaultStr: 'Введите текст сообщения!',
+                    buttonStr: 'Отправить'
+                })
+    
+            }, 2000);
+            
             return false;
         } else {
             this.setState({
@@ -27,7 +36,9 @@ class Form extends Component {
             });
             res.innerHTML += input.value + '<br>';
         };
+        
         input.value = '';
+        
         setTimeout(() => {
             this.setState({
                 defaultStr: 'Введите текст снова...',
